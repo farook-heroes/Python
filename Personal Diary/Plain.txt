@@ -1,0 +1,1 @@
+It encode and decode the given text in ascii value
