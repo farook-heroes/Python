@@ -1,0 +1,1 @@
+It insert the given url to qrcode
