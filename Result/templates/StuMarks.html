@@ -1,0 +1,22 @@
+{% extends 'home.html' %}
+{%block body%}
+<div class="container-fluid">
+    <table class="table table-bordered">
+        <thead class="bg bg-dark text-capitalize text-light">
+            <th><h4>Reg</h4></th>
+            <th><h4>Maths</h4></th>
+            <th><h4>Science</h4></th>
+            <th><h4>Social</h4></th>
+            
+        </thead>
+        <tbody class="bg bg-light">
+            <td>{{student.Reg}}</td>
+            <td>{{student.Math}}</td>
+            <td>{{student.Science}}</td>
+            <td>{{student.Social}}</td>
+        </tbody>
+    </table>
+    <script type="text/javascript">
+        document.getElementById("submit").style.display = "none";
+    </script>
+{%endblock%}
